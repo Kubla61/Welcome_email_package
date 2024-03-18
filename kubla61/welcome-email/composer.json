@@ -1,0 +1,27 @@
+{
+    "name": "kubla61/welcome-email",
+    "description": "This is test description",
+    "autoload": {
+        "psr-4": {
+            "Kubla61\\WelcomeEmail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lasha Kublashvili",
+            "email": "lashalashka61@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0|^9.0",
+        "illuminate/mail": "^8.0|^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kubla61\\WelcomeEmail\\YourPackageServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,1 @@
+This Lasha's WelcomeEmail Package test README
