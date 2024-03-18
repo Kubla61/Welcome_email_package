@@ -28,7 +28,7 @@ class SendWelcomeEmailJob implements ShouldQueue
         Mail::send([], [], function ($message) use ($user) {
             $message->to($user->email)
                     ->subject('Welcome!')
-                    ->setBody('This is test content for welcome email!', 'text/html');
+                    ->setBody('This is test content for user\'s welcome email!', 'text/html');
         });
     }
 }
